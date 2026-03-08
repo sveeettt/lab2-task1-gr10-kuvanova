@@ -1,11 +1,16 @@
 # Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+Проект для выполнения лабораторной работы №2 по ТПМП. 
+Программа решает задачу сравнения 5-х лучших учеников в двух классах (по 20 человек в каждом).
+Пользователь вводит средние оценки учеников, программа определяет, в каком классе у пятого 
+из самых успевающих учеников средняя оценка больше.
 
 # Usage
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
+**Студент:** Куванова Светлана Романовна 
+**Группа:** 10а
 
 # Building
 
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
+```bash
+gcc -o main src/main.c
